@@ -6,8 +6,6 @@ import userRouter from './routes/userRoutes.js';
 import taskRouter from './routes/taskRoutes.js';
 import cors from "cors";
 import logger from 'morgan';
-
-const corsOrigin=process.env.CORS_ORIGIN.split(',')
 const app=express()
 
 // import path from 'path';
